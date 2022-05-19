@@ -1,8 +1,8 @@
 '
-'  © JM. :: Hecho en Ronda
+'  Â© JM. :: Hecho en Ronda
 '
 '
-'  Procedente de...        es.geocities.com/jm00092
+'  Procedente de...        https://jm00092.freehostia.com/progqb/index.htm
 '
 '______________________________________________________________________
 '                                                  VISOR DE DIRECTORIOS
@@ -15,7 +15,7 @@ CLS
 PRINT nombre$
 
 '
-'  © JM. :: Hecho en Ronda
+'  Â© JM. :: Hecho en Ronda
 '
 '
 '  Procedente de...    www.jm-web.tk     ::    es.geocities.com/jm00092
