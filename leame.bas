@@ -1,8 +1,8 @@
 '
-'  © JM. :: Hecho en Ronda
+'  Â© JM. :: Hecho en Ronda
 '
 '
-'  Procedente de...        es.geocities.com/jm00092
+'  Procedente de...        https://jm00092.freehostia.com/
 '
 '______________________________________________________________________
 '                                            VISOR DE FICHEROS DE TEXTO
@@ -18,13 +18,13 @@ PALETTE 1, 8
 PALETTE 4, 36
 borde 1, 1, 25, 80, 6, 1
 COLOR 1, 6: LOCATE 1, 6: PRINT SPACE$(35)
-LOCATE 1, 7: PRINT "Presentaci¢n de archivos de texto"
+LOCATE 1, 7: PRINT "PresentaciÂ¢n de archivos de texto"
 COLOR 1, 6: LOCATE 25, 30: PRINT SPACE$(45);
 LOCATE 25, 31: COLOR 1: PRINT "Escribir el nombre ";
 COLOR 1: PRINT "          Hecho en Ronda";
 
 LOCATE 16, 13: PRINT " Nombre del archivo ";
-COLOR 4: PRINT "  [Unidad:][Ruta\]Archivo.Extensi¢n "
+COLOR 4: PRINT "  [Unidad:][Ruta\]Archivo.ExtensiÂ¢n "
 borde 15, 11, 20, 70, 6, 1
 LOCATE 18, 13: INPUT "", nombre$
 
@@ -49,9 +49,9 @@ DO
    LOCATE 2, 1
    FOR nn = 1 + vv TO 23 + vv
       txt$ = MID$(mat$(nn), 1, 78)
-      COLOR 6, 1: PRINT "³";
+      COLOR 6, 1: PRINT "Â³";
       COLOR 15: PRINT txt$; SPACE$(78 - LEN(txt$));
-      COLOR 9: PRINT "°";
+      COLOR 9: PRINT "Â°";
    NEXT
    desplazamiento vv, n
 
@@ -92,11 +92,11 @@ SELECT CASE ERR
    CASE 72: mensaje "Error en los discos."
    CASE 75: mensaje "Error de acceso al archivo."
    CASE 76: mensaje "No se encuentran los directorios de la ruta de acceso."
-   CASE ELSE: mensaje "Se ha producido el error n§" + STR$(ERR) + " de QBasic."
+   CASE ELSE: mensaje "Se ha producido el error nÂ§" + STR$(ERR) + " de QBasic."
 END SELECT
 
 '
-'  © JM. :: Hecho en Ronda
+'  Â© JM. :: Hecho en Ronda
 '
 '
 '  Procedente de...    www.jm-web.tk     ::    es.geocities.com/jm00092
@@ -107,18 +107,18 @@ SUB borde (Row1, COL1, row2, col2, PAPEL, MARCO) STATIC
 COLOR PAPEL, MARCO
 ANCHO = col2 - COL1 + 1
 LOCATE Row1, COL1
-PRINT "Ú"; STRING$(ANCHO - 2, "Ä"); "¿";
+PRINT "Ãš"; STRING$(ANCHO - 2, "Ã„"); "Â¿";
 FOR A = Row1 + 1 TO row2 - 1
    LOCATE A, COL1
-   PRINT "³";
-   LOCATE A, COL1 + (ANCHO - 1): PRINT "³";
+   PRINT "Â³";
+   LOCATE A, COL1 + (ANCHO - 1): PRINT "Â³";
 NEXT A
 LOCATE row2, COL1
-PRINT "À"; STRING$(ANCHO - 2, "Ä"); "Ù";
+PRINT "Ã€"; STRING$(ANCHO - 2, "Ã„"); "Ã™";
 END SUB
 
 '
-'  © JM. :: Hecho en Ronda
+'  Â© JM. :: Hecho en Ronda
 '
 '
 '  Procedente de...    www.jm-web.tk     ::    es.geocities.com/jm00092
@@ -134,11 +134,11 @@ li = INT((v / n) * 25) + 3
 IF li > 23 THEN li = 23
 LOCATE li, 80: COLOR 15, 4: PRINT " "; '"";
 LOCATE 25, 12: PRINT SPACE$(18);
-LOCATE 25, 12: PRINT " L¡nea"; v + 1; "de"; n - 22;
+LOCATE 25, 12: PRINT " LÂ¡nea"; v + 1; "de"; n - 22;
 END SUB
 
 '
-'  © JM. :: Hecho en Ronda
+'  Â© JM. :: Hecho en Ronda
 '
 '
 '  Procedente de...    www.jm-web.tk     ::    es.geocities.com/jm00092
