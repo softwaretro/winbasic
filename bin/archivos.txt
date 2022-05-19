@@ -1,0 +1,3 @@
+winbasic.exe menu
+fileman.exe para ver los archivos 
+leame.exe leer archivos texto y navegar por entre los archivos
