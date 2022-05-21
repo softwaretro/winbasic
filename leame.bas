@@ -31,7 +31,7 @@ LOCATE 18, 13: INPUT "", nombre$
 OPEN nombre$ FOR INPUT AS #1
 COLOR 1, 6: LOCATE 25, 30: PRINT SPACE$(45);
 LOCATE 25, 31: COLOR 4: PRINT " Cargando Archivo...  ";
-COLOR 1: PRINT "       Hecho en Ronda ";
+COLOR 1: PRINT "       winbasic ";
 
 
 DO
