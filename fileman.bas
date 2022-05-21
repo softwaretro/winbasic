@@ -34,7 +34,7 @@ DO
    COLOR 1, 6: LOCATE 1, 6: PRINT " Directorio "
    COLOR 15, 4: LOCATE 25, 7: PRINT SPACE$(50);
    LOCATE 25, 8:  PRINT ruta$;
-   LOCATE 25, 57: COLOR 1, 6: PRINT " Hecho en Ronda ";
+   LOCATE 25, 57: COLOR 1, 6: PRINT " winbasic";
 
    COLOR 15, 1
    VIEW PRINT 2 TO 24
